@@ -6,6 +6,7 @@ import MainApp from '../views/MainApp.vue'
 
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
+import Setting from '../views/Setting.vue'
 
 import UserIndex from '../views/users/index.vue'
 import UserCreate from '../views/users/create.vue'
@@ -18,6 +19,7 @@ const routes = [
     children: [
       { path: '', name: 'home', component: Home, },
       { path: '/about', name: 'about', component: About },
+      { path: '/setting', name: 'setting', component: Setting },
       { path: '/users', component: UserIndex,
         children: [
           // { path: 'create', name: 'users.create', components: { default: UserIndex, dialog: UserCreate } },
