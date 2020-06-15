@@ -1,18 +1,5 @@
 <template>
-  <div class="home">
-    this is home
-  </div>
-
+  <v-row align="center" justify="center">
+    <h1>This is an Home page</h1>
+  </v-row>
 </template>
-
-<script>
-// // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
-// export default {
-//   name: 'Home',
-//   components: {
-//     HelloWorld
-//   }
-// }
-</script>

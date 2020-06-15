@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+<v-row align="center" justify="center">
     <h1>This is User index page</h1>
     <router-link :to="{ name: 'users.create' }" class="btn">Create</router-link> |
     <router-link :to="{ name: 'users.createplat' }" class="btn">Create plat</router-link>
@@ -21,8 +21,8 @@
       <router-link :to="{ name: 'users.editplat', params: { id: '3' } }">edit plat 3</router-link> |
       <router-link :to="{ name: 'users.editplat', params: { id: '4' } }">edit plat 4</router-link>
     </div>
+  </v-row>
     
-  </div>
 </template>
 <script>
 export default {

@@ -6,6 +6,7 @@ import MainApp from '../views/MainApp.vue'
 
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
+
 import UserIndex from '../views/users/index.vue'
 import UserCreate from '../views/users/create.vue'
 import UserEdit from '../views/users/edit.vue'
